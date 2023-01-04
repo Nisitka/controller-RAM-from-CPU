@@ -56,3 +56,31 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    resources/vectors/coreDownGreen.png \
+    resources/vectors/coreDownOFF.png \
+    resources/vectors/coreDownRed.png \
+    resources/vectors/coreLeftGreen.png \
+    resources/vectors/coreLeftOFF.png \
+    resources/vectors/coreRightGreen.png \
+    resources/vectors/coreRightOFF.png \
+    resources/vectors/coreUpGreen.png \
+    resources/vectors/coreUpOFF.png \
+    resources/vectors/cpuDownGreen.png \
+    resources/vectors/cpuDownOFF.png \
+    resources/vectors/cpuDownRed.png \
+    resources/vectors/cpuUpGreen.png \
+    resources/vectors/cpuUpOFF.png \
+    resources/vectors/pcDownGreen.png \
+    resources/vectors/pcDownOFF.png \
+    resources/vectors/pcDownRed.png \
+    resources/vectors/pcLeftGreen.png \
+    resources/vectors/pcLeftOFF.png \
+    resources/vectors/pcLeftRed.png \
+    resources/vectors/pcRightGreen.png \
+    resources/vectors/pcRightOFF.png \
+    resources/vectors/pcRightRed.png \
+    resources/vectors/pcUpGreen.png \
+    resources/vectors/pcUpOFF.png \
+    resources/vectors/pcUpRed.png
