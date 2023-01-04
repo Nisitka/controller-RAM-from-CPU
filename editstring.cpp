@@ -102,7 +102,7 @@ void editString::updateData()
 
 void editString::buildData()
 {
-    bool* outTag = new bool;
+    bool* outTag; // создаем временный указатель
     outTag = stringBits::toBites(strBits);
     for (int i=0; i<stringBits::numBits; i++) lastTag[i] = outTag[i];
 

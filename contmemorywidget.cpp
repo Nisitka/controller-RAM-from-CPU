@@ -78,8 +78,6 @@ void contMemoryWidget::paintEvent(QPaintEvent* paintEvent)
 // настройка визуала
 void contMemoryWidget::setDesineWidget(QWidget *widget, typeWidget tW, const QColor& color)
 {
-    QString tWidget;
-
     int r, g, b;
     r = color.red();
     g = color.green();
@@ -148,10 +146,6 @@ void contMemoryWidget::setVizual()
 
     ui->cpuLabel->clear();
     setDesineWidget(ui->cpuLabel, label, QColor(96, 255, 232));
-
-//    QPixmap pixmap(QApplication::applicationDirPath() + "/imageCPU.jpg");
-//    pixmap = pixmap.scaled(ui->cpuLabel->size());
-//    ui->cpuLabel->setPixmap(pixmap);
 
     QList <QWidget*> buttons = {ui->coresButton,
                                 ui->contrMemoryButton,

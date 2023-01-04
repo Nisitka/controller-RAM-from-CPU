@@ -108,7 +108,7 @@ memoryLwidget::memoryLwidget(const QString& nameWindow,
     {
         tags.append(boxStrings.at(i)->getTag());
     }
-    getDataFromTags(tags);
+    emit getDataFromTags(tags);
 }
 
 void memoryLwidget::update(const QStringList& dataList, QObject* sender)

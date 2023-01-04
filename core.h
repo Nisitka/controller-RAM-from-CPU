@@ -7,6 +7,7 @@
 
 #include "contmemorywidget.h"
 
+// ядро всего приложения
 class Core
 {
 public:
